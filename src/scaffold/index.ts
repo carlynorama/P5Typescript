@@ -9,3 +9,4 @@ export function updateMessage() {
   const messageText = document.createTextNode(" and another thing...");
   let node = document.getElementById("message")?.appendChild(messageText)
 }
+

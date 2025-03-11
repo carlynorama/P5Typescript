@@ -4,4 +4,7 @@ node_modules/
 
 **/*.js
 **/*.js.map
-!build/index.js
+# !build/index.js
+
+# exclude p5js so can have the known version for this sketch. 
+!p5js/*.js

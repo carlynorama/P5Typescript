@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello JS</title>
+    <script src="js/scaffold/index.js"></script>
+    <style>
+    iframe {
+      display: block;
+      width: 400px;
+      height: 400px;
+      margin: 10px 20px;
+      padding: 0;
+      overflow: hidden;
+      border:5px solid black;
+      background-color: rgb(147, 95, 95);
+    }
+  </style>
+  </head>
+  
+  <body>
+    <H1>hello!</H1>
+    <p id="message">no message yet</p>
+    <button onclick="updateMessage()">Click me</button>
+    
+    <iframe style="visibility:hidden;" onload="this.style.visibility='visible';"
+        src="sketch.html"></iframe>
+  </body>
+</html>
