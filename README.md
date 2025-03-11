@@ -172,9 +172,13 @@ and updated the html header to
 <script src="p5js/p5.min.js"></script>
 ```
 
-### Clean up HTML
+### Clean up HTML / Move output
 
-Split the sketch into a separate HTML. Current state of project with some css. 
+I wanted to clean up the HTML into and index and an embedded iframe, which means the I wanted a folder that would represent the the website.
+
+I changed the web files, moved the output in `tsconfig.json` and the webserver call in `package.json` as well. 
+
+This is the current state of the project. 
 
 
 
