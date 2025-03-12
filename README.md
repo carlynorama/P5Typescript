@@ -1,8 +1,18 @@
+# P5js & Typescript Starter Template
+
+## How to use
+
+- clone repo as a Template
+- `npm run tsc`
+- `npm run http-server`
+
+Note: if have trouble with clearing the cache on your browser try adding `?nocache=1` to the end of the url, e.g. `http://127.0.0.1:8080/?nocache=1`
 
 ## Steps to Create
 
-See other project
-
+See also 
+- https://github.com/carlynorama/2023January-30DaysNatureOfCode
+- https://github.com/Gaweph/p5-typescript-starter
 
 ### Setup Typescript
 
