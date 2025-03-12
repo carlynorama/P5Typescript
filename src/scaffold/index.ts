@@ -1,3 +1,5 @@
+// removed export from original example to keep the index.html working
+// with es2020 mode. 
 
 const world = 'world';
 
