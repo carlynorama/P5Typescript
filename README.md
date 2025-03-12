@@ -3,6 +3,15 @@
 ## How to use
 
 - clone repo as a Template
+
+- if want to use local p5js
+  - `mkdir web/p5js`
+  - put the version of p5js you will be using in the folder
+- else if using CDN or other source
+  - update sketch.html to point to correct version of p5js
+- else if using npm package... (TODO: explain)
+
+- `npm install`
 - `npm run tsc`
 - `npm run http-server`
 
