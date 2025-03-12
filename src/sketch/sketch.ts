@@ -20,13 +20,13 @@ function setup() {
   
 function draw() {
     background(0, 0, 80);
-    console.log(diameter);
+    //console.log(diameter);
     
     if (diameter > maxDiameter || diameter < minDiameter ) {
         growFactor *= -1;
     }
     diameter += growFactor;
-    console.log(growFactor);
+    //console.log(growFactor);
 
     ellipse(width/2, height/2, diameter, diameter);
 }
